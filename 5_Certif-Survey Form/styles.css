@@ -1,0 +1,71 @@
+body{
+    background-color: #1b1b32;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-image: url(img/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 30px;
+}
+#title, #description{
+    text-align: center;
+}
+.container{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 5px auto 40px auto;
+   background-color: rgba(250, 234, 214,75%)
+}
+label{
+    display: block;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+input, select, textarea{
+    width: 100%;
+    min-height: 2em;
+    margin: 5px 0 0 0;
+    padding: 0 10px;
+}
+span{
+    color: gray;
+    font-weight: 200;
+    font-size: small;
+}
+form{
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+input[type="radio"]{
+    width: unset;
+    display: inline;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+input[type="checkbox"]{
+    width: unset;
+    display: inline;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+.radio{
+    margin: 0;
+}
+textarea{
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: green;
+    color: white;
+    min-height: 3em;
+    margin: 20px 0;
+}
